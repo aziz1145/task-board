@@ -1,4 +1,4 @@
-import { getStorageItem, setStorageItem, removeStorageItem } from "../utils/storage";
+import { getStorageItem, setStorageItem, removeStorageItem } from "../utils/storage.js";
 
 const AUTH_KEY = "taskboard_auth";
 

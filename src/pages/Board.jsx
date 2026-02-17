@@ -6,7 +6,7 @@ import { DndContext } from "@dnd-kit/core";
 import Column from "../components/Column.jsx";
 import TaskFormModal from "../components/TaskFormModal.jsx";
 
-import { logout } from "../store/authStore.jsx";
+import { logout } from "../store/authStore.js";
 import { loadBoard, saveBoard, resetBoard } from "../store/boardStore.js";
 
 import ActivityLog from "../components/ActivityLog.jsx";
