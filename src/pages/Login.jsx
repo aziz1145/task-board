@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { isLoggedIn, login } from "../store/authstore";
+import { isLoggedIn, login } from "../store/authStore";
 
 export default function Login() {
   const navigate = useNavigate();

@@ -4,10 +4,10 @@ import { nanoid } from "nanoid";
 import { DndContext } from "@dnd-kit/core";
 
 import Column from "../components/Column.jsx";
-import TaskFormModal from "../components/TaskFormModal.jsx";
+import TaskFormModal from "../components/TaskFormModal.js";
 
-import { logout } from "../store/authstore.jsx";
-import { loadBoard, saveBoard, resetBoard } from "../store/boardStore";
+import { logout } from "../store/authStore.jsx";
+import { loadBoard, saveBoard, resetBoard } from "../store/boardStore.js";
 
 import ActivityLog from "../components/ActivityLog.jsx";
 import {
