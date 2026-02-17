@@ -1,5 +1,5 @@
 import { Navigate } from "react-router-dom";
-import { isLoggedIn } from "../store/authstore";
+import { isLoggedIn } from "../store/authStore.js";
 
 export default function ProtectedRoute({ children }) {
   if (!isLoggedIn()) {
