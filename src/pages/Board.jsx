@@ -4,7 +4,7 @@ import { nanoid } from "nanoid";
 import { DndContext } from "@dnd-kit/core";
 
 import Column from "../components/Column.jsx";
-import TaskFormModal from "../components/TaskFormModal.js";
+import TaskFormModal from "../components/TaskFormModal.jsx";
 
 import { logout } from "../store/authStore.jsx";
 import { loadBoard, saveBoard, resetBoard } from "../store/boardStore.js";
